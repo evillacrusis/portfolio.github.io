@@ -1,0 +1,168 @@
+<!doctype html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    
+</head>
+<body> 
+    
+    <header>
+        <nav id="hamnav">
+            <!-- (B) THE HAMBURGER -->
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+
+            <div id="hamitems">
+                <a href="/">
+                    Works 
+                </a>
+                <a href="#">
+                    Blog 
+                </a>
+                <a href="#">
+                    Contacts 
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <div class="container">
+                <div class="profile-body">
+                    <div class="profile-info">
+                        <h1>Hi, I am John, <br/> Creative Technologist</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>   
+                        <a href="./cvsamples.pdf" download>
+                            Download Resume
+                        </a> 
+                    </div>
+                    <div class="profile-img">
+                        <img src="/images/profile.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="posts">
+            <div class="container">
+                <div class="posts-header">
+                    <h2>Recent posts</h2>
+                    <a href="#">View all</a>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    Making a design system from scratch
+                                </div>
+                                <div class="card-details">
+                                    <span>12 Feb 2020</span>
+                                    <span class="vl"></span>
+                                    <span> Design, Pattern</span>
+                                </div>
+                                <div class="card-text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    Creating pixel perfect icons in Figma
+                                </div>
+                                <div class="card-details">
+                                    <span>12 Feb 2020</span>
+                                    <span class="vl"></span>
+                                    <span> Figma, Icon Design</span>
+                                </div>
+                                <div class="card-text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="container">
+                <div class="works-header">
+                    <h2>Recent works</h2>
+                </div>
+                <div class="works-lists">
+                    <div class="work">
+                        <div class="work-body">
+                            <div class="work-image">
+                                <img src="/images/work1.png" alt="">
+                            </div>
+                            <div class="work-details">
+                                <div class="work-title">Designing Dashboards</div>
+                                <div>
+                                    <span class="badge">2020</span>
+                                    <span class="work-type">Dashboard</span>
+                                </div>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="work">
+                        <div class="work-body">
+                            <div class="work-image">
+                                <img src="/images/work2.png" alt="">
+                            </div>
+                            <div class="work-details">
+                                <div class="work-title">Vibrant Portraits of 2020</div>
+                                <div>
+                                    <span class="badge">2018</span>
+                                    <span class="work-type">Illustration</span>
+                                </div>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="work">
+                        <div class="work-body">
+                            <div class="work-image">
+                                <img src="/images/work3.png" alt="">
+                            </div>
+                            <div class="work-details">
+                                <div class="work-title">36 Days of Malayalam type</div>
+                                <div>
+                                    <span class="badge">2018</span>
+                                    <span class="work-type">Typography</span>
+                                </div>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="#"><ion-icon size="large" name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon size="large" name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2020 All right reserved</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
